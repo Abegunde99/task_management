@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import { Injectable, NotFoundException } from '@nestjs/common';
 import {  TaskStatus } from './task-status.enum';
 import { CreateTaskDto } from './dto/create-task.dto';

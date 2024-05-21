@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Repository } from "typeorm";
 import { Task } from "./task.entity";
 import { Injectable } from "@nestjs/common";

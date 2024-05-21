@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
+
 import { Body, Controller, Get, Param, Post, Delete, Patch, Query, UsePipes, ValidationPipe, ParseIntPipe, UseGuards } from '@nestjs/common';
 import {TasksService} from './tasks.service'
 import { TaskStatus} from './task-status.enum'

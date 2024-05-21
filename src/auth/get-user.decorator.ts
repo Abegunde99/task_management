@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { createParamDecorator } from "@nestjs/common";
 import { User } from "./auth.entity";
 

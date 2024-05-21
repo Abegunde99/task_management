@@ -1,7 +1,6 @@
+/* eslint-disable prettier/prettier */
 import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { User } from './auth.entity';
-import { Repository } from 'typeorm';
 import { UserCredentialsDto } from './dto/user-credentials.dto';
 import { UserRepository } from './user.repository';
 import { JwtService } from '@nestjs/jwt';

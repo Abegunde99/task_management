@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Repository } from "typeorm";
 import * as bcrypt from 'bcrypt';
 import { User } from "./auth.entity";

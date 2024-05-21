@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { BaseEntity, Column, ManyToOne, Entity, PrimaryGeneratedColumn } from "typeorm";
 import { TaskStatus } from "./task-status.enum";
 import { User } from "src/auth/auth.entity";

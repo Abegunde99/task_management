@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { BaseEntity, Column, OneToMany, Entity, PrimaryGeneratedColumn, Unique } from "typeorm";
 import * as bcrypt from 'bcrypt';
 import { Task } from "src/tasks/task.entity";

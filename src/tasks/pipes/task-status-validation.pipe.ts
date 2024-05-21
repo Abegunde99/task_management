@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { PipeTransform } from "@nestjs/common";
 import { BadRequestException } from "@nestjs/common";
 import { TaskStatus } from "../task-status.enum";
